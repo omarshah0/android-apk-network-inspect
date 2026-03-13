@@ -284,10 +284,12 @@ adb push frida-server /data/local/tmp/
 adb shell chmod 755 /data/local/tmp/frida-server
 ```
 
-### Start server
+### Start server in emulator with root
 
 ```bash
-adb shell /data/local/tmp/frida-server &
+adb shell
+su
+/data/local/tmp/frida-server &
 ```
 
 Verify connection:
