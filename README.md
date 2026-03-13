@@ -171,6 +171,12 @@ Set global HTTP proxy:
 adb shell settings put global http_proxy 10.0.2.2:8080
 ```
 
+Clear global HTTP proxy (once done):
+
+```
+adb shell settings put global http_proxy :0
+```
+
 Explanation:
 
 ```
