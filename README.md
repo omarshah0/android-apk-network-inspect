@@ -356,7 +356,7 @@ Start Objection by attaching to the app.
 Example:
 
 ```bash
-objection -g com.example.app explore
+objection -n com.example.app explore start
 ```
 
 Inside the Objection shell run:
