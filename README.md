@@ -313,6 +313,7 @@ frida-ps -Uai
 Attach to running app:
 
 ```bash
+*Recommended*: frida -U -p 1234 [PID you get when app is running on emulator and you run the frida-ps -Uai command]
 frida -U -n com.example.app
 ```
 
